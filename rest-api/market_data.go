@@ -18,7 +18,7 @@ type payload struct {
 func main() {
 
 	currencies := "EURUSD,GBPUSD"
-	apiKey := "SepVs06vQMaHUkOQ8JkT"
+	apiKey := "your api"
 
 	URL := "https://marketdata.tradermade.com/api/v1/live?currency=" + currencies + "&api_key=" + apiKey
 
